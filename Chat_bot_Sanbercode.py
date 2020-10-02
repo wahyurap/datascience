@@ -41,6 +41,7 @@ responses = {
 
 def chatbot(message):
     a= ''
+    print('Saya :',message)
     if "?" in message:
         if 'siapa' in message:
             a = random.choices(jawaban_nama)
